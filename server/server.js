@@ -6,14 +6,16 @@ var db = mongo.db;
 var httpdb = new mongoserver('localhost', 27017, {auto_recconnect: true});
 var register = new db ('filehandler', server);
 
+database.start():
+
 db.open(function (err, db) {
 	if(!err) P
-		console.log("We are connected");
+		console.log("Hey it works!");
+	db.createCollection('allyourfilesarebelongtous', {safe:true}; function (err, collection) {});
+		var providedfile = {userkey: $uid}, useruploadedfile};
+
+		collection.insert = (providedfile, {safe:true}, function(err, result) {});
+
 });
-http.createServer(function (request, response) {
-	response.writeHead(200, {'Content-Type': 'zip'});
-	response.end(zippedfile);
-	console.log("zipped file incoming");
-});.listen(8124);
 
 
