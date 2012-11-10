@@ -1,5 +1,13 @@
-var fs = require("fs");
-var sunninja = require("./resources/sunninja.html");
-var onRequest = require("../server/server.js");
+var mongodb = require("mongodb");
+var providedfile = require("providedfilefromhttpserver");
+var zipthefile = require("./providefilezipped");
 
-fs.read(sunninja, "filetobezipped", 1, 64, null, onRequest);
+function createfile (providedfile) {
+	db.collection.insert(providedfile);
+};
+
+function zipfile (db.collection.find.$providedfileUID); {
+	zipthefile.$providedfileUID;
+};
+
+function updatefile (
