@@ -1,15 +1,20 @@
 var mongodb = require("mongodb");
 var providedfile = require("providedfilefromhttpserver");
 var zipthefile = require("./providefilezipped");
-var $providedfileUID= db.submittedfiles.find(ZZ
+var uid = require("uid");
+
 function createfile (providedfile) {
-	db.collection.insert(providedfile);
+	var filetobezipped = {UID:uid, {safe:true}, function(err, result) {}};
+	db.collection.insert({filetobezipped, {safe:true}, function (err, result) {}});
 };
 
-function zipfile (db.collection.find.$providedfileUID); {
-	zipthefile.$providedfileUID;
+function zipfile (filetobezipped) {
+
 };
 
-function updatefile (
+function updatefile (zippedfile) {
+	collection.update({uid}, ($push:{providedfile:{zippedfile:1}}, {safe:true}, function(err, result) {}))
+
+};
 
 module.exports = databaseserverindex;
