@@ -1,4 +1,9 @@
-var server = require("./server/server.js");
+var server = require("./lib/server/server.js");
+var database = require("./lib/database/databaseindex.js");
 
-var database = require("./database/databaseindex.js");
-	start.database();
+function startserver(database, server) {
+		database.on;
+		server.on;
+	}
+
+startserver();
